@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saúde em Mãos</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Saúde em Mãos</h2>
+      <hr />
+      <br />
+      <div class="form">
+        Usuário:&nbsp; <input type="text" name="user" id="user" /> <br /><br />
+        Posto: <input type="text" name="healthcenter" id="healthcenter" /> <br /><br />
+        Remédio: <input type="text" name="drug" id="drug" /> <br /><br />
+      </div>
+
+      <div class="buttons">
+        <button id="insert">Inserir</button>
+        <button id="read">Recuperar</button>
+        <button id="update">Modificar</button>
+        <button id="delete">Apagar</button>
+      </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase.js"></script>
+
+    <script src="./fireConfig.js"></script>
+
+    <script src="./myscript.js"></script>
+  </body>
+</html>
